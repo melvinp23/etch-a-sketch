@@ -1,7 +1,3 @@
-// function promptNew() {
-// 	prompt(`Enter new canvas size:`);
-// }
-
 const container = document.querySelector('#container');
 
 const newBtn = document.querySelector('#newBtn');
