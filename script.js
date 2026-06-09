@@ -16,8 +16,11 @@ newBtn.addEventListener('click', () => {
 		div.classList.add('pixel');
 		div.style.width = `${100 / squarePerSide}%`;
 		div.style.height = `${100 / squarePerSide}%`;
+
+		div.addEventListener('mouseenter', () => {
+			div.style.backgroundColor = 'black';
+		});
+
 		container.appendChild(div);
 	}
 });
-
-// 100 / number of squares per side

@@ -5,12 +5,8 @@
 	height: 500px;
 	border: 2px solid black;
 }
-/* formula for changing the grid size: 100 / # of grid per side */
+
 .pixel {
 	box-sizing: border-box;
 	border: 1px solid #ddd;
-}
-
-.pixel:hover {
-	background-color: rgb(192, 22, 22);
 }
